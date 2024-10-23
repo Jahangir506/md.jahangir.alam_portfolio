@@ -1,3 +1,4 @@
+import SideNavbar from "@/components/SideNavbar/SideNavbar";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -19,11 +20,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="flex h-screen bg-[#0A192F] gap-4 justify-between">
+          <div className="w-[18%] bg-[#07101F] text-white">
+            <SideNavbar></SideNavbar>
+          </div>
+          <div className="flex justify-center items-center w-full px-16 text-white">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
