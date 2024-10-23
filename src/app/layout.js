@@ -1,4 +1,5 @@
 import SideNavbar from "@/components/SideNavbar/SideNavbar";
+import SmallDeviceNav from "@/components/SmallDeviceNav";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -24,12 +25,25 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex h-screen bg-[#0A192F] gap-4 justify-between">
-          <div className="w-[18%] bg-[#07101F] text-white">
-            <SideNavbar></SideNavbar>
+        <div className="drawer lg:drawer-open">
+          <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content bg-[#0A192F] flex flex-col items-center justify-center">
+            <div className="lg:hidden block w-full">
+              <SmallDeviceNav />
+            </div>
+            <div className="flex justify-center items-center w-full px-16 text-white">
+              {children}
+            </div>
           </div>
-          <div className="flex justify-center items-center w-full px-16 text-white">
-            {children}
+          <div className="drawer-side">
+            <label
+              htmlFor="my-drawer-2"
+              aria-label="close sidebar"
+              className="drawer-overlay"
+            ></label>
+            <ul className="menu bg-[#07101F] text-base-content min-h-full w-64 p-0">
+              <SideNavbar></SideNavbar>
+            </ul>
           </div>
         </div>
       </body>
