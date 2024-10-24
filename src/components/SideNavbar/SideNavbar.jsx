@@ -26,27 +26,27 @@ const SideNavbar = () => {
         {/* Navigate Link  */}
         <div className="my-[105px]">
           <ul>
-            <li className=" text-center hover:text-[#04bf00] border-t border-b border-gray-600 ">
+            <li className="text-center text-white hover:text-[#04bf00] opacity-90  border-t border-b border-gray-600 ">
               <div className="flex justify-center py-4">
                 <Link href="/"> Home </Link>
               </div>
             </li>
-            <li className=" text-center hover:text-[#04bf00] border-b border-gray-600 ">
+            <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
               <div className="flex justify-center py-4">
                 <Link href="/about"> About </Link>
               </div>
             </li>
-            <li className=" text-center hover:text-[#04bf00] border-b border-gray-600 ">
+            <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
               <div className="flex justify-center py-4">
                 <Link href="/myWork"> My Work </Link>
               </div>
             </li>
-            <li className=" text-center hover:text-[#04bf00] border-b border-gray-600 ">
+            <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
               <div className="flex justify-center py-4">
                 <Link href="/accomplishments"> Accomplishments </Link>
               </div>
             </li>
-            <li className=" text-center hover:text-[#04bf00] border-b border-gray-600 ">
+            <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
               <div className="flex justify-center py-4">
                 <Link href="/contactMe"> Contact Me </Link>
               </div>
