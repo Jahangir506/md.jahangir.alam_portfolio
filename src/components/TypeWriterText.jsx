@@ -2,7 +2,7 @@
 
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
-const TypeWriter = () => {
+const TypeWriterText = () => {
 
     const [typewriter] = useTypewriter({
         words: ["Front-end Developer.", "Web Developer."],
@@ -18,4 +18,4 @@ const TypeWriter = () => {
             <Cursor cursorColor="#22c55e"></Cursor>
         </>
     )}
-export default TypeWriter;
+export default TypeWriterText;

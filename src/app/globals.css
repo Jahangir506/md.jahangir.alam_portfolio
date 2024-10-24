@@ -15,7 +15,7 @@
   background-size: cover;
   background-position: center center;
   margin: 20px;
-  box-shadow: 0 5px 5px rgba(1, 186, 100, 0.846);
+  box-shadow: 0 5px 5px rgba(8, 217, 15, 0.846);
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
@@ -38,7 +38,7 @@
     background-size: cover;
     background-position: center center;
     margin: 20px;
-    box-shadow: 0 5px 5px rgba(1, 186, 100, 0.846);
+    box-shadow: 0 5px 5px rgba(8, 217, 15, 0.846);
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
   }

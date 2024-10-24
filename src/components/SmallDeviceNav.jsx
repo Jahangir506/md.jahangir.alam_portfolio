@@ -4,7 +4,7 @@ import { MdMenu } from "react-icons/md";
 const SmallDeviceNav = () => {
   return (
     <>
-      <div className="bg-green-700 flex justify-between w-full p-4">
+      <div className="bg-[#058a03] flex justify-between w-full p-4">
         <div className="flex items-center justify-center gap-3">
           <Image
             width={45}
@@ -18,7 +18,7 @@ const SmallDeviceNav = () => {
             htmlFor="my-drawer-2"
             className="btn bg-transparent border-transparent drawer-button lg:hidden"
           >
-            <MdMenu size={30}/>
+            <MdMenu size={30} className="text-white opacity-90"/>
           </label>
       </div>
     </>
