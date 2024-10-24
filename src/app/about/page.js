@@ -10,8 +10,7 @@ const page = () => {
         <div className="mt-8 space-y-1.5 flex gap-96 w-full">
           <div>
             <h4 className="text-xl ">
-              <span className="opacity-70 text-white">Full Name:</span> Ishtiyak
-              Ali Rifat
+              <span className="opacity-70 text-white">Full Name:</span> Md. Jahangir Alam
             </h4>
             <h4 className="text-xl ">
               <span className="opacity-70 text-white">Age : </span> 23
