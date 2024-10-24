@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="flex md:max-w-full flex-col-reverse md:flex-row justify-between items-center">
-        <div className="flex-1 p-2 text-center md:text-start">
-          <h1 className="text-3xl mt-4 md:mt-0 md:text-7xl font-bold">Hi,</h1>
+      <div className="flex my-auto py-0 md:py-16 px-0 md:px-16 text-white opacity-90 md:max-w-full flex-col-reverse md:flex-row justify-between items-center">
+        <div className="flex-1 p-2  my-4 text-center md:text-start">
+          <h1 className="text-3xl md:text-7xl font-bold">Hi,</h1>
           <h1 className="text-3xl md:text-7xl mt-0 md:mt-2 font-bold">
             I&apos;m Jahangir,
           </h1>

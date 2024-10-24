@@ -23,17 +23,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0A192F]`}
       >
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content bg-[#0A192F] flex flex-col items-center justify-center">
+          <div className="drawer-content bg-[#0A192F]">
             <div className="lg:hidden block w-full">
               <SmallDeviceNav />
             </div>
-            <div className="flex justify-center items-center w-full px-0 lg:px-16 text-white">
-              {children}
-            </div>
+            <div className="w-full">{children}</div>
           </div>
           <div className="drawer-side">
             <label
