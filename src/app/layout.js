@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             <div className="lg:hidden block w-full">
               <SmallDeviceNav />
             </div>
-            <div className="flex justify-center items-center w-full px-16 text-white">
+            <div className="flex justify-center items-center w-full px-0 lg:px-16 text-white">
               {children}
             </div>
           </div>

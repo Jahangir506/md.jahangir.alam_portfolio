@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="flex md:max-w-full flex-col-reverse md:flex-row justify-between items-center">
-        <div className="w-3/5 text-center md:text-start">
+        <div className="flex-1 p-2 text-center md:text-start">
           <h1 className="text-3xl mt-4 md:mt-0 md:text-7xl font-bold">Hi,</h1>
           <h1 className="text-3xl md:text-7xl mt-0 md:mt-2 font-bold">
             I&apos;m Jahangir,
@@ -16,13 +16,13 @@ export default function Home() {
             </h1>
           </div>
           <div className="space-y-4 md:space-y-6 mt-2 md:mt-4">
-            <p className="w-full max-w-72 md:max-w-full">
+            <p className="">
               I&apos;m a passionate web developer and graphic designer. I
               believe in success through hard work & dedication. I want to join
               in a Professional life to gain exposure, confidence & a sense of
               achievement.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex justify-center md:justify-normal flex-wrap gap-4">
               <button className="bg-black/25 hover:text-white text-[#04bf00] px-6 py-0.5">
                 Quick learner
               </button>
