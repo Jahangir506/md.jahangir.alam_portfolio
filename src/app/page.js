@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div className="space-y-4 md:space-y-6 mt-2 md:mt-4">
             <p className="">
-              I&apos;m a passionate web developer and graphic designer. I
+              I&apos;m a passionate web developer. I
               believe in success through hard work & dedication. I want to join
               in a Professional life to gain exposure, confidence & a sense of
               achievement.
