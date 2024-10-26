@@ -10,7 +10,7 @@ const page = () => {
           <h1 className="text-5xl font-bold">
             <span className="text-[#04bf00] ">About</span> Myself
           </h1>
-          <div className="mt-8  md:flex justify-between items-center pr-0 md:pr-40 w-full">
+          <div className="mt-8 flex flex-col gap-4 md:flex-row justify-between pr-0 md:pr-40 w-full">
             <div className="space-y-4">
               <h4 className="text-xl ">
                 <span className="opacity-70 text-white">Full Name:</span> Md.
