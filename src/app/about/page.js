@@ -5,7 +5,7 @@ import { PiStudentBold } from "react-icons/pi";
 const page = () => {
   return (
     <>
-      <div className="p-7 md:p-16">
+      <div className="">
         <div className=" text-white opacity-95">
           <h1 className="text-5xl font-bold">
             <span className="text-[#04bf00] ">About</span> Myself

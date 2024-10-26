@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             <div className="lg:hidden block w-full">
               <SmallDeviceNav />
             </div>
-            <div className="w-full">{children}</div>
+            <div className="w-full  p-4 md:p-16">{children}</div>
           </div>
           <div className="drawer-side">
             <label

@@ -18,7 +18,7 @@ const MySkill = () => {
             <h4 className="text-xl font-bold opacity-80">
               Language, Database & Others:
             </h4>
-            <div className="mt-4 grid grid-cols-2 md:grid-cols-5 gap-5 md:gap-8">
+            <div className="mt-4 grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-y-8">
               <div className="card rounded-md bg-[#0E223F] w-full md:w-52">
                 <div className="card-body hover:text-[#04bf00] justify-center items-center">
                   <FaHtml5 size={50} />
@@ -49,7 +49,7 @@ const MySkill = () => {
             <h4 className="text-xl font-bold opacity-80">
               Libraries, Frameworks and Tools:
             </h4>
-            <div className="mt-4 grid grid-cols-2 md:grid-cols-5 gap-5 md:gap-8">
+            <div className="mt-4 grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-y-8">
               <div className="card rounded-md bg-[#0E223F] w-full md:w-52">
                 <div className="card-body hover:text-[#04bf00] justify-center items-center">
                   <GrReactjs size={50} />
