@@ -27,29 +27,29 @@ const SideNavbar = () => {
         <div className="my-[105px]">
           <ul>
             <li className="text-center text-white hover:text-[#04bf00] opacity-90  border-t border-b border-gray-600 ">
-              <div className="flex justify-center py-4">
-                <Link href="/"> Home </Link>
-              </div>
+              <Link href="/" className="flex justify-center py-4">
+                <button> Home </button>
+              </Link>
             </li>
             <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
-              <div className="flex justify-center py-4">
-                <Link href="/about"> About </Link>
-              </div>
+              <Link href="/about" className="flex justify-center py-4">
+                <button> About </button>
+              </Link>
             </li>
             <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
-              <div className="flex justify-center py-4">
-                <Link href="/myWork"> My Work </Link>
-              </div>
+              <Link href="/myWork" className="flex justify-center py-4">
+                <button> My Work </button>
+              </Link>
             </li>
             <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
-              <div className="flex justify-center py-4">
-                <Link href="/accomplishments"> Accomplishments </Link>
-              </div>
+              <Link Link href="/accomplishments" className="flex justify-center py-4">
+                <button> Accomplishments </button>
+              </Link>
             </li>
             <li className=" text-center text-white hover:text-[#04bf00] opacity-90  border-b border-gray-600 ">
-              <div className="flex justify-center py-4">
-                <Link href="/contactMe"> Contact Me </Link>
-              </div>
+              <Link href="/contactMe" className="flex justify-center py-4">
+                <> Contact Me </>
+              </Link>
             </li>
           </ul>
         </div>
@@ -57,9 +57,8 @@ const SideNavbar = () => {
         {/* Social Link  */}
         <div className="flex justify-center py-4 items-center">
           <ul className="flex">
-            
             <li>
-              <Link href="https://github.com/Jahangir506"target="_blank">
+              <Link href="https://github.com/Jahangir506" target="_blank">
                 <FaGithub
                   size={25}
                   className="hover:text-[#04bf00] font-bold text-xl"

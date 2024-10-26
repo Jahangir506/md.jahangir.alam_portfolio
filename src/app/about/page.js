@@ -1,3 +1,4 @@
+import MySkill from "@/components/MySkill";
 import Link from "next/link";
 import { PiStudentBold } from "react-icons/pi";
 
@@ -96,6 +97,10 @@ const page = () => {
               </div>
             </div>
           </div>
+        </div>
+        {/* my skill  */}
+        <div>
+          <MySkill />
         </div>
       </div>
     </>
